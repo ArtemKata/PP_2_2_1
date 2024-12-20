@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import javax.sql.DataSource;
 import java.util.Properties;
 
-
+//лишний перенос строки
 @Configuration
 @PropertySource("classpath:db.properties")
 @EnableTransactionManagement
